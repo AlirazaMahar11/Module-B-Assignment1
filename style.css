@@ -1,0 +1,39 @@
+.Card_style{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.Card_style div{
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: khaki;
+}
+.card-text{
+    width: 300px;
+}   
+.Card_1 img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.Title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 400px){
+    .Card_style{
+        display: grid;
+    }
+    
+}
+@media (max-width: 800px){
+    .Card_style{
+        display:grid;
+    }
+    
+}
+
+
